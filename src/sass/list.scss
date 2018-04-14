@@ -1,0 +1,1393 @@
+// 引入变量
+@import 'var';
+%arrow_bottom{
+    position:absolute;
+    left:92px;top:15px;
+    display: inline-block;   
+    border-right: 1px solid; border-top: 1px solid;  
+    width: 5px; height: 5px;  
+    transform: rotate(135deg);
+}
+%arrow_top{
+    position:absolute;
+    left:92px;top:18px;
+    display: inline-block;   
+    border-left: 1px solid; border-top: 1px solid;  
+    width: 5px; height: 5px;  
+    transform: rotate(45deg);
+}
+#list{
+    .header{
+        background:#F1F1F1;
+        font-size:$fontsize;
+        line-height:37px;
+        position:relative;
+        z-index: 9999;
+        .dizhi{ 
+            width: 108px;
+            height: 37px;                          
+            .song{
+                margin:0 5px;
+                display:$inline;
+            }
+            .bottom{
+                @extend %arrow_bottom;
+            }
+            .top{
+                @extend %arrow_top;  
+            }
+            ul{
+                display:none;
+                padding-left:10px;
+                padding-top:5px;
+                width: 280px;height: 370px;
+                border:1px solid #ddd;
+                border-top:none;
+
+                li{
+                    height: 24px;
+                    line-height: 24px;
+                    a{
+                        color:#5E5E5E;
+                    }
+                    i{
+                        margin-right:8px;
+                    }
+                    span{
+                        margin-right:10px;
+                    }
+                    .bold{
+                        font-weight:bold;
+                    }
+                }
+                
+            }
+        }
+        .login{
+            .ul{
+                width: 478px;
+                height: 37px;
+                li{           
+                    float:left; 
+                    a{
+                        display:$inline;
+                        height: 37px;
+                    }          
+                    .yiyao{                       
+                        position:relative;
+                        .yi{
+                            padding-right:20px;
+                        }
+                        .bottom1{
+                            @extend %arrow_bottom;
+                            position:absolute;
+                            left:70px;top:15px;
+                        }
+                        .top1{
+                            @extend %arrow_top;  
+                            position:absolute;
+                            left:70px;top:18px;
+                        }
+                    }
+                    span{
+                        display:$inline;
+                        line-height: 12px;
+                        color:#5E5E5E;
+                        padding:0 9px;
+                        border-right:1px solid #E0E0E0;
+                    }
+                    .lg{
+                        margin-right:5px;
+                        padding:0;
+                        border-right:none;
+                        color:#E54948;
+                    }
+                    a:hover .lg{
+                        text-decoration:underline;
+                    }
+                    .sg{
+                        padding-left:0;
+                    }
+                    .help{
+                        color:#C9A978;
+                    }
+                    .phone{
+                        display:$inline;
+                        width: 9px;
+                        height: 13px;
+                        margin:0 9px;
+                        background:url(../img/shouji.png) no-repeat;;
+                    }
+                    .shouji{
+                        padding-left:0;
+                    }
+                }
+                .li1{
+                    position:relative;
+                    .myul{
+                        display:none;
+                        position:absolute;
+                        top:37px;left:0;
+                        width: 100%;
+                        
+                        padding-top:8px;
+                        border:1px solid #ddd;
+                        border-top:none;
+                        li{
+                            width: 100%;
+                            padding-left:8px;
+                            clear:both;
+                            height: 24px;
+                            line-height: 24px;
+                            a{
+                                color:#5E5E5E;
+                            }
+                        }
+                    }
+                }
+                .li1:hover .myul{
+                    display:block;
+                    background:#fff;
+                }
+                .myul li:hover{
+                    background:#F1F1F1;
+                }
+                .li2{
+                    position:relative;
+                    ul{
+                        display:none;
+                        padding-top:10px;
+                        width: 220px;
+                        height: 240px;
+                        position:absolute;
+                        left:-70px;top:36px;
+                        border:1px solid #ddd;
+                        border-top:none;
+                        li{
+                            width: 100%;
+                            clear:both;
+                            position:relative;
+                            .sp1{
+                                position:absolute;
+                                left:102px;top:6px;
+                                border:none;
+                            }
+                            .sp2{
+                                position:absolute;
+                                left:102px;top:36px;
+                                border:none;
+                                color:red;
+                                font-weight:bold;
+                            }
+                        }
+                    }
+                }
+                .li2:hover{
+                    background:#fff;
+                }
+                .li2:hover ul{
+                    display:block;
+                    background:#fff;
+                }
+            }
+        }
+    }
+    .bar{
+        .logo{
+            .seek{
+                width: 533px;
+                height: 131px;
+                padding-top:34px;
+                margin:0 105px;
+                position:relative;
+                .cast{
+                    padding-left:8px;
+                    border:1px solid #C7A774;
+                    width: 451px;
+                    height: 46px;
+                }
+                .shousuo{
+                    border:1px solid #C7A774;
+                    width: 82px;
+                    height: 46px;
+                    position:relative;
+                    img{
+                        position:absolute;
+                        left:28px;top:9px;
+                    }
+                }
+                span{
+                    font-size: 12px;
+                    line-height: 36px;
+                    color:#5E5E5E;
+                    margin-right:14px;
+                }
+                span:hover{
+                    color:red;
+                    text-decoration:underline;
+                }
+                .wsse{
+                    color:red;
+                }
+                .datalist{
+                    display:none;
+                    width: 451px;
+                    height: 262px;
+                    border:1px solid #ddd;
+                    
+                    position:absolute;
+                    left:0;top:79px;
+                    z-index: 999;
+                    font-size:12px;
+                    li{
+                        width: 100%;
+                        padding-left:8px;
+                        height: 26px;
+                        line-height: 26px;
+                        a{
+                            display:inline-block;
+                            width: 100%;
+                            color:#5E5E5E
+                        }
+                    }
+                }
+            }
+            .wei{
+                padding-top:34px;
+                height: 131px;
+                .car{
+                    width: 140px;
+                    height: 40px;
+                    border:1px solid #ddd;
+                    margin-left:22px;
+                    position:relative;
+                    .img_car{
+                        position:absolute;
+                        left:17px;top:3px;
+                    }
+                    span{
+                        font-size:12px;
+                        line-height: 40px;
+                        position:absolute;
+                        left:55px;top:0;
+                        color:#5E5E5E;
+                    }
+                    .jiantou{
+                        position:absolute;
+                        right:22px;top:14px;
+                    }
+                }
+            }
+        }
+    }
+    .dao{
+        border-bottom:2px solid #D2B994;
+        .nav{
+            height: 46px;
+            .lli{
+                float:left;
+                .as{
+                    display:inline-block;
+                    height: 48px;
+                    font-size:16px;
+                    line-height: 48px; 
+                    color:#5E5E5E;
+                    padding-right:30px;
+                }
+                .yong{
+                    position:absolute;
+                    z-index: 999;
+                    display:none;
+                    width: 180px;
+                    height: 400px;
+                    background:#314349;
+                    li{
+                        width: 100%;
+                        height: 40px;
+                        clear:both;
+                        position:relative;
+                        .aa{
+                            width: 100%;
+                            padding-left:16px; 
+                            padding-right:0;
+                            height: 40px;
+                            line-height: 40px;
+                            span{
+                                padding-left:9px;
+                                color:#fff;
+                                font-size:14px;
+                                line-height: 44px;
+                            }
+                        }
+                        .zhongxi{
+                            z-index: 999;
+                            background:#fff;
+                            display:none;
+                            padding-left:23px;
+                            width: 1010px;
+                            border-bottom:1px solid #ddd;
+                            border-right:1px solid #ddd;
+                            position:absolute;
+                            left:180px;top:0;
+                            .mode{
+                                width: 252px;
+                                height: 399px;
+                                margin-right:-6px;
+                                dl{
+                                    width: 252px;
+                                    height: 74px;
+                                    margin-bottom:10px;
+                                    dt{                                 
+                                        height: 20px;
+                                        line-height: 20px;
+                                        a{
+                                            color:#5E5E5E;
+                                            height: 20px;
+                                            font-size:14px;
+                                            line-height: 20px;
+                                            font-weight:bold;
+                                        }
+                                        a:hover{
+                                            color:red;
+                                            text-decoration:underline;
+                                        }
+                                    }
+                                    .dt1{
+                                        padding-top:6px;
+                                    }
+                                    dd{
+                                        a{
+                                            color:#5E5E5E;
+                                            height: 12px;
+                                            line-height: 12px;
+                                            float:left;
+                                            font-size:12px;
+                                            padding-right:6px;
+                                            margin-top:8px;
+                                            margin-right:6px; 
+                                            border-right:1px solid #ddd;
+                                        } 
+                                        a:hover{
+                                            color:red;
+                                            text-decoration:underline;
+                                        }
+                                        .red{
+                                            color:red;
+                                        }
+                                    }
+                                }
+                                
+                            }
+                            .img{
+                                height: 399px;
+                                border-left:1px solid #ddd;
+                                img{
+                                    position:absolute;
+                                    right:0;top:4px;
+                                }
+                                
+                            }
+                        }
+                        .zibu{
+                            z-index: 999;
+                            background:#fff;
+                            display:none;
+                            padding-left:23px;
+                            width: 1010px;
+                            border-bottom:1px solid #ddd;
+                            border-right:1px solid #ddd;
+                            position:absolute;
+                            left:180px;top:-40px;
+                            .mode{
+                                width: 252px;
+                                height: 399px;
+                                margin-right:-6px;
+                                dl{
+                                    width: 252px;
+                                    height: 74px;
+                                    margin-bottom:10px;
+                                    dt{                                 
+                                        height: 20px;
+                                        line-height: 20px;
+                                        a{
+                                            color:#5E5E5E;
+                                            height: 20px;
+                                            font-size:14px;
+                                            line-height: 20px;
+                                            font-weight:bold;
+                                        }
+                                        a:hover{
+                                            color:red;
+                                            text-decoration:underline;
+                                        }
+                                    }
+                                    .dt1{
+                                        padding-top:6px;
+                                    }
+                                    dd{
+                                        a{
+                                            color:#5E5E5E;
+                                            height: 12px;
+                                            line-height: 12px;
+                                            float:left;
+                                            font-size:12px;
+                                            padding-right:6px;
+                                            margin-top:8px;
+                                            margin-right:6px; 
+                                            border-right:1px solid #ddd;
+                                        } 
+                                        a:hover{
+                                            color:red;
+                                            text-decoration:underline;
+                                        }
+                                        .red{
+                                            color:red;
+                                        }
+                                    }
+                                }
+                                
+                            }
+                            .img{
+                                height: 399px;
+                                border-left:1px solid #ddd;
+                                img{
+                                    position:absolute;
+                                    right:0;top:4px;
+                                }
+                                
+                            }
+                        }
+                        .weiss{
+                            z-index: 999;
+                            background:#fff;
+                            display:none;
+                            padding-left:23px;
+                            width: 1010px;
+                            border-bottom:1px solid #ddd;
+                            border-right:1px solid #ddd;
+                            position:absolute;
+                            left:180px;top:-80px;
+                            .mode{
+                                width: 252px;
+                                height: 399px;
+                                margin-right:-6px;
+                                dl{
+                                    width: 252px;
+                                    height: 74px;
+                                    margin-bottom:10px;
+                                    dt{                                 
+                                        height: 20px;
+                                        line-height: 20px;
+                                        a{
+                                            color:#5E5E5E;
+                                            height: 20px;
+                                            font-size:14px;
+                                            line-height: 20px;
+                                            font-weight:bold;
+                                        }
+                                        a:hover{
+                                            color:red;
+                                            text-decoration:underline;
+                                        }
+                                    }
+                                    .dt1{
+                                        padding-top:6px;
+                                    }
+                                    dd{
+                                        a{
+                                            color:#5E5E5E;
+                                            height: 12px;
+                                            line-height: 12px;
+                                            float:left;
+                                            font-size:12px;
+                                            padding-right:6px;
+                                            margin-top:8px;
+                                            margin-right:6px; 
+                                            border-right:1px solid #ddd;
+                                        } 
+                                        a:hover{
+                                            color:red;
+                                            text-decoration:underline;
+                                        }
+                                        .red{
+                                            color:red;
+                                        }
+                                    }
+                                }
+                                
+                            }
+                            .img{
+                                height: 399px;
+                                border-left:1px solid #ddd;
+                                img{
+                                    position:absolute;
+                                    right:0;top:4px;
+                                }
+                                
+                            }
+                        }
+                        .eyes{
+                            z-index: 999;
+                            background:#fff;
+                            display:none;
+                            padding-left:23px;
+                            width: 1010px;
+                            border-bottom:1px solid #ddd;
+                            border-right:1px solid #ddd;
+                            position:absolute;
+                            left:180px;top:-120px;
+                            .mode{
+                                width: 252px;
+                                height: 399px;
+                                margin-right:-6px;
+                                dl{
+                                    width: 252px;
+                                    height: 74px;
+                                    margin-bottom:10px;
+                                    dt{                                 
+                                        height: 20px;
+                                        line-height: 20px;
+                                        a{
+                                            color:#5E5E5E;
+                                            height: 20px;
+                                            font-size:14px;
+                                            line-height: 20px;
+                                            font-weight:bold;
+                                        }
+                                        a:hover{
+                                            color:red;
+                                            text-decoration:underline;
+                                        }
+                                    }
+                                    .dt1{
+                                        padding-top:6px;
+                                    }
+                                    dd{
+                                        a{
+                                            color:#5E5E5E;
+                                            height: 12px;
+                                            line-height: 12px;
+                                            float:left;
+                                            font-size:12px;
+                                            padding-right:6px;
+                                            margin-top:8px;
+                                            margin-right:6px; 
+                                            border-right:1px solid #ddd;
+                                        } 
+                                        a:hover{
+                                            color:red;
+                                            text-decoration:underline;
+                                        }
+                                        .red{
+                                            color:red;
+                                        }
+                                    }
+                                }
+                                
+                            }
+                            .img{
+                                height: 399px;
+                                border-left:1px solid #ddd;
+                                img{
+                                    position:absolute;
+                                    right:0;top:4px;
+                                }
+                                
+                            }
+                        }
+                        .yiliao{
+                            z-index: 999;
+                            background:#fff;
+                            display:none;
+                            padding-left:23px;
+                            width: 1010px;
+                            border-bottom:1px solid #ddd;
+                            border-right:1px solid #ddd;
+                            position:absolute;
+                            left:180px;top:-160px;
+                            .mode{
+                                width: 252px;
+                                height: 399px;
+                                margin-right:-6px;
+                                dl{
+                                    width: 252px;
+                                    height: 74px;
+                                    margin-bottom:10px;
+                                    dt{                                 
+                                        height: 20px;
+                                        line-height: 20px;
+                                        a{
+                                            color:#5E5E5E;
+                                            height: 20px;
+                                            font-size:14px;
+                                            line-height: 20px;
+                                            font-weight:bold;
+                                        }
+                                        a:hover{
+                                            color:red;
+                                            text-decoration:underline;
+                                        }
+                                    }
+                                    .dt1{
+                                        padding-top:6px;
+                                    }
+                                    dd{
+                                        a{
+                                            color:#5E5E5E;
+                                            height: 12px;
+                                            line-height: 12px;
+                                            float:left;
+                                            font-size:12px;
+                                            padding-right:6px;
+                                            margin-top:8px;
+                                            margin-right:6px; 
+                                            border-right:1px solid #ddd;
+                                        } 
+                                        a:hover{
+                                            color:red;
+                                            text-decoration:underline;
+                                        }
+                                        .red{
+                                            color:red;
+                                        }
+                                    }
+                                }
+                                
+                            }
+                            .img{
+                                height: 399px;
+                                border-left:1px solid #ddd;
+                                img{
+                                    position:absolute;
+                                    right:0;top:4px;
+                                }
+                                
+                            }
+                        }
+                        .yaozhuang{
+                            z-index: 999;
+                            background:#fff;
+                            display:none;
+                            padding-left:23px;
+                            width: 1010px;
+                            border-bottom:1px solid #ddd;
+                            border-right:1px solid #ddd;
+                            position:absolute;
+                            left:180px;top:-200px;
+                            .mode{
+                                width: 252px;
+                                height: 399px;
+                                margin-right:-6px;
+                                dl{
+                                    width: 252px;
+                                    height: 74px;
+                                    margin-bottom:10px;
+                                    dt{                                 
+                                        height: 20px;
+                                        line-height: 20px;
+                                        a{
+                                            color:#5E5E5E;
+                                            height: 20px;
+                                            font-size:14px;
+                                            line-height: 20px;
+                                            font-weight:bold;
+                                        }
+                                        a:hover{
+                                            color:red;
+                                            text-decoration:underline;
+                                        }
+                                    }
+                                    .dt1{
+                                        padding-top:6px;
+                                    }
+                                    dd{
+                                        a{
+                                            color:#5E5E5E;
+                                            height: 12px;
+                                            line-height: 12px;
+                                            float:left;
+                                            font-size:12px;
+                                            padding-right:6px;
+                                            margin-top:8px;
+                                            margin-right:6px; 
+                                            border-right:1px solid #ddd;
+                                        } 
+                                        a:hover{
+                                            color:red;
+                                            text-decoration:underline;
+                                        }
+                                        .red{
+                                            color:red;
+                                        }
+                                    }
+                                }
+                                
+                            }
+                            .img{
+                                height: 399px;
+                                border-left:1px solid #ddd;
+                                img{
+                                    position:absolute;
+                                    right:0;top:4px;
+                                }
+                                
+                            }
+                        }
+                        .chengren{
+                            z-index: 999;
+                            background:#fff;
+                            display:none;
+                            padding-left:23px;
+                            width: 1010px;
+                            border-bottom:1px solid #ddd;
+                            border-right:1px solid #ddd;
+                            position:absolute;
+                            left:180px;top:-240px;
+                            .mode{
+                                width: 252px;
+                                height: 399px;
+                                margin-right:-6px;
+                                dl{
+                                    width: 252px;
+                                    height: 74px;
+                                    margin-bottom:10px;
+                                    dt{                                 
+                                        height: 20px;
+                                        line-height: 20px;
+                                        a{
+                                            color:#5E5E5E;
+                                            height: 20px;
+                                            font-size:14px;
+                                            line-height: 20px;
+                                            font-weight:bold;
+                                        }
+                                        a:hover{
+                                            color:red;
+                                            text-decoration:underline;
+                                        }
+                                    }
+                                    .dt1{
+                                        padding-top:6px;
+                                    }
+                                    dd{
+                                        a{
+                                            color:#5E5E5E;
+                                            height: 12px;
+                                            line-height: 12px;
+                                            float:left;
+                                            font-size:12px;
+                                            padding-right:6px;
+                                            margin-top:8px;
+                                            margin-right:6px; 
+                                            border-right:1px solid #ddd;
+                                        } 
+                                        a:hover{
+                                            color:red;
+                                            text-decoration:underline;
+                                        }
+                                        .red{
+                                            color:red;
+                                        }
+                                    }
+                                }
+                                
+                            }
+                            .img{
+                                height: 399px;
+                                border-left:1px solid #ddd;
+                                img{
+                                    position:absolute;
+                                    right:0;top:4px;
+                                }
+                                
+                            }
+                        }
+                        .mu{
+                            z-index: 999;
+                            background:#fff;
+                            display:none;
+                            padding-left:23px;
+                            width: 1010px;
+                            border-bottom:1px solid #ddd;
+                            border-right:1px solid #ddd;
+                            position:absolute;
+                            left:180px;top:-280px;
+                            .mode{
+                                width: 252px;
+                                height: 399px;
+                                margin-right:-6px;
+                                dl{
+                                    width: 252px;
+                                    height: 74px;
+                                    margin-bottom:10px;
+                                    dt{                                 
+                                        height: 20px;
+                                        line-height: 20px;
+                                        a{
+                                            color:#5E5E5E;
+                                            height: 20px;
+                                            font-size:14px;
+                                            line-height: 20px;
+                                            font-weight:bold;
+                                        }
+                                        a:hover{
+                                            color:red;
+                                            text-decoration:underline;
+                                        }
+                                    }
+                                    .dt1{
+                                        padding-top:6px;
+                                    }
+                                    dd{
+                                        a{
+                                            color:#5E5E5E;
+                                            height: 12px;
+                                            line-height: 12px;
+                                            float:left;
+                                            font-size:12px;
+                                            padding-right:6px;
+                                            margin-top:8px;
+                                            margin-right:6px; 
+                                            border-right:1px solid #ddd;
+                                        } 
+                                        a:hover{
+                                            color:red;
+                                            text-decoration:underline;
+                                        }
+                                        .red{
+                                            color:red;
+                                        }
+                                    }
+                                }
+                                
+                            }
+                            .img{
+                                height: 399px;
+                                border-left:1px solid #ddd;
+                                img{
+                                    position:absolute;
+                                    right:0;top:4px;
+                                }
+                                
+                            }
+                        }
+                        .huacha{
+                            z-index: 999;
+                            background:#fff;
+                            display:none;
+                            padding-left:23px;
+                            width: 1010px;
+                            border-bottom:1px solid #ddd;
+                            border-right:1px solid #ddd;
+                            position:absolute;
+                            left:180px;top:-320px;
+                            .mode{
+                                width: 252px;
+                                height: 399px;
+                                margin-right:-6px;
+                                dl{
+                                    width: 252px;
+                                    height: 74px;
+                                    margin-bottom:10px;
+                                    dt{                                 
+                                        height: 20px;
+                                        line-height: 20px;
+                                        a{
+                                            color:#5E5E5E;
+                                            height: 20px;
+                                            font-size:14px;
+                                            line-height: 20px;
+                                            font-weight:bold;
+                                        }
+                                        a:hover{
+                                            color:red;
+                                            text-decoration:underline;
+                                        }
+                                    }
+                                    .dt1{
+                                        padding-top:6px;
+                                    }
+                                    dd{
+                                        a{
+                                            color:#5E5E5E;
+                                            height: 12px;
+                                            line-height: 12px;
+                                            float:left;
+                                            font-size:12px;
+                                            padding-right:6px;
+                                            margin-top:8px;
+                                            margin-right:6px; 
+                                            border-right:1px solid #ddd;
+                                        } 
+                                        a:hover{
+                                            color:red;
+                                            text-decoration:underline;
+                                        }
+                                        .red{
+                                            color:red;
+                                        }
+                                    }
+                                }
+                                
+                            }
+                            .img{
+                                height: 399px;
+                                border-left:1px solid #ddd;
+                                img{
+                                    position:absolute;
+                                    right:0;top:4px;
+                                }
+                                
+                            }
+                        }
+                        .tijian{
+                            z-index: 999;
+                            background:#fff;
+                            display:none;
+                            padding-left:23px;
+                            width: 1010px;
+                            border-bottom:1px solid #ddd;
+                            border-right:1px solid #ddd;
+                            position:absolute;
+                            left:180px;top:-360px;
+                            .mode{
+                                width: 252px;
+                                height: 399px;
+                                margin-right:-6px;
+                                dl{
+                                    width: 252px;
+                                    height: 74px;
+                                    margin-bottom:10px;
+                                    dt{                                 
+                                        height: 20px;
+                                        line-height: 20px;
+                                        a{
+                                            color:#5E5E5E;
+                                            height: 20px;
+                                            font-size:14px;
+                                            line-height: 20px;
+                                            font-weight:bold;
+                                        }
+                                        a:hover{
+                                            color:red;
+                                            text-decoration:underline;
+                                        }
+                                    }
+                                    .dt1{
+                                        padding-top:6px;
+                                    }
+                                    dd{
+                                        a{
+                                            color:#5E5E5E;
+                                            height: 12px;
+                                            line-height: 12px;
+                                            float:left;
+                                            font-size:12px;
+                                            padding-right:6px;
+                                            margin-top:8px;
+                                            margin-right:6px; 
+                                            border-right:1px solid #ddd;
+                                        } 
+                                        a:hover{
+                                            color:red;
+                                            text-decoration:underline;
+                                        }
+                                        .red{
+                                            color:red;
+                                        }
+                                    }
+                                }
+                                
+                            }
+                            .img{
+                                height: 399px;
+                                border-left:1px solid #ddd;
+                                img{
+                                    position:absolute;
+                                    right:0;top:4px;
+                                }
+                                
+                            }
+                        }
+                    }
+                    
+                }
+                .one{
+                    width: 180px;
+                    padding-left:14px;
+                    background:#19323A;
+                    color:#fff;
+                }
+                .one:hover{
+                    color:#fff;
+                    text-decoration:underline;
+                }
+                .two{
+                    color:red;
+                }
+                .two1{
+                    padding-left:14px;
+                }
+                a:hover{
+                    color:blue;
+                }
+                .two:hover{
+                    color:red;
+                }
+            }
+            .yp:hover .yong{
+                display:block
+            }
+            .yp{
+                height: 448px;
+                .yong{
+                    li{
+
+                    }
+                }
+            }
+            .lis{
+                    position:relative;
+                    z-index: 999;
+                    .bottom2{
+                        @extend %arrow_bottom;
+                        position:absolute;
+                        left:80px;top:20px;
+                    }
+                    .top2{
+                        @extend %arrow_top;  
+                        position:absolute;
+                        left:80px;top:24px;
+                    }
+                    ul{
+                        position:absolute;
+                        left:-14px;top:49px;
+                        background:#fff;
+                        display:none;
+                        width: 120px;
+                        height: 79px;
+                        border:1px solid #ddd;
+                        border-top:none;
+                        li{
+                            width: 120px;
+                            clear:both;
+                            a{
+                                display:inline-block;
+                                font-size:14px;
+                                width: 100%;
+                                height: 26px;
+                                line-height: 26px;
+                                padding-left:10px;
+                            }
+                            a:hover{
+                                background:#F1F1F1;
+                                color:#5E5E5E;
+                            }
+                        }
+                    }
+                }
+        }
+    }
+    .lie{
+        height: 2995px;
+        position:relative;
+        .container{
+            position:absolute;
+            left:117px;top:0;
+            .yaoping{
+                height: 1887px;
+                width: 180px;
+                margin-top:10px;
+                .zxyp{
+                    height: 656px;
+                    margin-bottom:20px;
+                    .zx{
+                        height: 38px;
+                        background:#DDDDDD;
+                        padding-left:14px;
+                    }
+                    .uul{
+
+                        background:#F5F5F5;
+                        li{
+                            position:relative;
+                            .ull{
+                                background:#fff;
+                                padding-left:34px;
+                                font-size:14px;
+                                height: 140px;
+                                line-height: 28px;
+                                display:none;
+                                // position:absolute;
+                            }
+                            a{
+                                width: 180px;
+                                display:inline-block;
+                                padding-left:34px;
+                                height: 38px;
+                                border-top:1px solid #ddd;
+                                line-height: 38px;
+                                font-size:12px;
+                                color:#5E5E5E;
+                                font-weight:bold;
+                            }
+                            a:hover{
+                                color:red;
+                                text-decoration:underline;
+                            }
+                            img{
+                                position:absolute;
+                                left:16px;top:14px;
+                            }
+                        }
+                    }
+                }
+            }
+            .sp{
+                padding-left:10px;
+                width: 1010px;
+                .shopp{
+                    margin-top:10px;
+                    ul{
+                        width: 100%;
+                        height: 32px;
+                        background:#F5F5F5;
+                        border:1px solid #ddd;
+                        li{
+                            float:left;
+                            
+                            a{
+                                border-right:1px solid #ddd;
+                                display:inline-block;
+                                font-size:12px;
+                                width: 54px;
+                                height: 30px;
+                                line-height: 32px;
+                                padding-left:10px; 
+                                color:#5E5E5E;
+                            }
+                            .page{
+                                position:relative;
+                                .jia1{
+                                    position:absolute;
+                                    right:3px;top:8px;
+                                }
+                                .jia2{
+                                    position:absolute;
+                                    right:3px;top:16px;
+                                }
+                            }
+                            .lis2{
+                                width: 74px;
+                                position:relative;
+                                padding-left:30px;
+                                input{
+                                    width: 12px;
+                                    height: 12px;
+                                    padding-right:10px;
+                                    position:absolute;
+                                    left:10px;top:10px;
+                                }
+                            }
+                        }
+                        .lis1{
+                            width: 96px;
+                            line-height: 30px;
+                            text-align:center;
+                            border-right:1px solid #ddd;
+                            input{
+                                width: 34px;
+                                height: 18px;
+                                border:1px solid #ddd;
+
+                            }
+                        }
+                        .lis3{
+                            height: 30px;
+                            width: 350px;
+                            position:relative;
+                            img{
+                                position:absolute;
+                                right:0;top:5px;
+                                line-height: 30px;
+                            }
+                        }
+                    }
+                }
+                .nei{
+                    padding-top:10px;
+                    height: 2600px;
+                    li{
+                        float:left;
+                        width: 234px;
+                        padding:7px 14px 10px 14px;
+                        margin-bottom:30px;
+                        margin-right:16px;
+                        text-align:left;
+                        border:2px solid #fff;
+                        img{
+                            
+                        }
+                        .goods-price{
+                            color:red;
+                            font-weight:bold;
+                            
+                        }
+                        .goods-intro{
+                            a{
+                                font-size:12px;
+                                color:#5E5E5E;
+                            }
+                            a:hover{
+                                color:red;
+                                text-decoration:underline;
+                            }
+                            
+                        }
+                        .shop-name{
+                            height: 72px;
+                            .zix{
+                                margin-top:22px;
+                            }
+                        }
+                    }
+                    li:hover{
+                        border:2px solid #ddd;
+                    }
+                }
+                .filter-pager{
+                    padding-left:228px;
+                    .pager{
+                        li{
+                            float:left;margin-left:5px;
+                            a{display:block;border:1px solid #ddd;background: #fff;padding:5px 10px;}
+                            .active{background:blue;color:#fff;}
+                            a:hover{text-decoration:underline;background:blue;color:#fff;}
+                        }
+                        .active{background:red;color:#fff;}
+                        .total-page{
+                            height:26px;line-height:26px;color:#666666;
+                            b{font-weight:bolder;}
+                        }
+                        .goto-page{
+                            height:26px;line-height:26px;color:#666666;
+                            .custom-page{border:1px solid #ddd;height:24px;width:34px;margin:0 5px;}
+                            .custom-enter{border:1px solid #ddd;height:24px;width:48px;background: #fff;
+                                &:hover{background:blue;color:#fff;}
+                            }
+                        }
+                    }
+                }  
+            }
+
+        }   
+    }
+
+    .shou{
+        height: 178px;
+        background:#f0f0f0;
+        margin-bottom:52px;
+        .jian{
+            img{
+                padding-top:36px;
+                margin:0 40px;
+            }
+            img:hover{
+                transform:translateY(-10px);
+            }
+        }
+    }
+    .ke{
+        margin-top:22px;
+        dl{
+            float:left;
+            margin:0 35px;
+            dt{
+                font-size:16px;
+                font-weight:bold;
+                padding-bottom:10px;
+
+            }
+            dd{
+                    font-size:10px;
+                    color:#999;
+                    line-height: 24px;
+                }
+        }
+    }
+    .yu{
+        p{
+            text-align:center;
+            height: 24px;
+            font-size:12px;
+            line-height: 12px;
+            a{
+                border-right:1px solid #ddd;
+                padding:0 6px;
+                color:#5E5E5E;
+            }
+            .aa3{
+                color:red;
+            }
+            a:hover{
+                text-decoration:underline;
+            }
+            
+        }
+    }
+    .jiandu{
+        p{text-align:center; 
+            a{
+               font-size:12px;
+            
+            }
+            
+        }
+    }
+    .fanhui{
+        width: 52px;
+        height: 204px;
+        border:1px solid #ddd;
+        position:fixed;
+        right:28px;bottom:10px;
+        ul{
+            li{
+                border-bottom:1px solid #ddd;
+                span{
+                    display:none;
+                    font-size:18px;
+                    text-align:center;                    
+                }
+                .spp1{
+                    position:absolute;
+                    left:0;top:0;
+                }
+                .spp2{
+                    position:absolute;
+                    left:0;top:53px;
+                }
+                .spp3{
+                    position:absolute;
+                    left:0;top:103px;
+                }
+                .spp4{
+                    position:absolute;
+                    left:0;top:153px;
+                }
+                
+            }
+            .li1{
+                height: 52px;
+            }
+            .li2{
+                height: 51px;
+            }
+            .li3{
+                height: 51px;
+            }
+            .li4{
+                height: 50px;
+            }
+        }
+    }
+}

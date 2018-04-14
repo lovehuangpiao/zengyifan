@@ -1,0 +1,57 @@
+
+<!-- saved from url=(0050)http://www.111.com.cn/sblock/0/1/b_hot_search.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=GBK"></head><body><div id="hotKeyWordArea" style="display:none;"><a href="http://www.111.com.cn/search/search.action?keyWord=%25E5%25A6%2588%25E5%2592%25AA%25E7%2588%25B1">妈咪爱</a>
+<a href="http://www.111.com.cn/search/search.action?keyWord=%25E5%25AE%259A%25E5%259D%25A4%25E4%25B8%25B9">定坤丹</a>
+<a href="http://www.111.com.cn/search/search.action?keyWord=%25E7%25BB%25B4%25E7%2594%259F%25E7%25B4%25A0d%25E6%25BB%25B4%25E5%2589%2582">维生素D滴剂</a>
+<a href="http://www.111.com.cn/search/search.action?keyWord=%25E7%25AB%258B%25E6%2599%25AE%25E5%25A6%25A5">立普妥</a>
+<a href="http://www.111.com.cn/search/search.action?keyWord=%25E6%2598%2593%25E5%2580%258D%25E7%2594%25B3">易倍申</a>
+<a class="red" href="http://www.111.com.cn/search/search.action?keyWord=%25E7%25BB%25B4%25E7%2594%259F%25E7%25B4%25A0e">维生素e</a>
+<a href="http://www.111.com.cn/search/search.action?keyWord=%25E5%258D%259A%25E5%25A3%25AB%25E4%25BC%25A6%25E9%259A%2590%25E5%25BD%25A2%25E7%259C%25BC%25E9%2595%259C">博士伦</a></div>
+<script type="text/javascript">
+document.domain='111.com.cn';
+(function(){
+	//var keyWord = parent.document.location.href.match(/.*www\.111\.com\.cn\/search\/search.*\keyWord=((.*?)(\&.*)*)$/);
+        var keyWord=getUrlParm(parent.document.location.href).keyWord;
+	var hotkey_ = parent.document.getElementById('hotkeys');
+	var hotKeyWordArea_ = document.getElementById('hotKeyWordArea');
+	if(!hotkey_ || !hotKeyWordArea_ )return;
+	if(parent.document.location.href.indexOf("http://www.111.com.cn/list/") != -1)return;
+     
+	hotkey_.innerHTML = hotKeyWordArea_.innerHTML;
+         if(keyWord=="null"){
+               keyWord="";
+         }else if(keyWord){
+		parent.document.getElementById('word').value = decodeURI(decodeURI(keyWord));
+               parent.document.getElementById('combobox-placeholder').innerHTML=decodeURI(decodeURI(keyWord));
+	}else{
+		parent.document.getElementById('word').value = '过敏';
+		parent.document.getElementById('word').setAttribute('default', '过敏');
+               parent.document.getElementById('combobox-placeholder').innerHTML= '过敏';
+	}
+
+           var defaultKeys = parent.document.getElementById('hotkeys').getElementsByTagName('a');
+		for(var i = 0; i < defaultKeys.length; i++){
+			defaultKeys[i].setAttribute('default', '过敏');
+                         if (defaultKeys[i].href.indexOf('javascript')>=0){
+                                defaultKeys[i].setAttribute('target','_blank');
+                        var str = defaultKeys[i].innerHTML;
+                        var keywordStr=str.replace(/(^\s*)|(\s*$)/g,"");
+	                var basePath="http://www.111.com.cn/";
+	                var enCodeStr=encodeURI(encodeURI(keywordStr));
+	                var thisURL=basePath+"search/search.action";
+	                var url=thisURL+"?keyWord="+enCodeStr;
+                        //writeSearhHistory(keywordStr);
+                        defaultKeys[i].setAttribute('href', url);
+                        } 
+		}
+})();function getUrlParm(url){			
+        var paramMap = {};
+        var reg = /\??(([^&?=#]+)=([^&?=#]*))/g;
+        var result;
+        var search = url.substring(url.indexOf('?'),url.length);
+        while ((result = reg.exec(search)) != null) {
+            paramMap[RegExp.$2] = RegExp.$3;
+        }
+		return paramMap;
+	}
+</script></body></html>

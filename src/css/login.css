@@ -1,0 +1,189 @@
+.login .container {
+  width: 988px;
+}
+
+.login .container h1 {
+  border-bottom: 2px solid #0083CE;
+}
+
+.login .container h1 img {
+  border-left: 1px dashed #fff;
+  border-right: 1px dashed #fff;
+}
+
+.login .container h1 img:hover {
+  border-left: 1px dashed red;
+  border-right: 1px dashed red;
+}
+
+.login .container .denglu {
+  height: 458px;
+  box-shadow: -1px 1px 10px #EFEFEF, -1px 10px 10px #EFEFEF;
+}
+
+.login .container .denglu .dl {
+  width: 428px;
+  height: 458px;
+}
+
+.login .container .denglu .dl ul {
+  height: 46px;
+  border-bottom: 1px solid #ddd;
+}
+
+.login .container .denglu .dl ul li {
+  height: 25px;
+  font-size: 14px;
+  float: left;
+  width: 214px;
+  text-align: center;
+  margin-top: 10px;
+  line-height: 25px;
+}
+
+.login .container .denglu .dl ul .zuo {
+  border-right: 1px solid #ddd;
+}
+
+.login .container .denglu .dl ul li:hover {
+  color: blue;
+}
+
+.login .container .denglu .dl .deng {
+  position: relative;
+  height: 412px;
+  padding-left: 30px;
+}
+
+.login .container .denglu .dl .deng h4 {
+  height: 46px;
+  font-size: 16px;
+  line-height: 46px;
+}
+
+.login .container .denglu .dl .deng h4 span {
+  font-size: 12px;
+  padding-left: 112px;
+  padding-right: 30px;
+}
+
+.login .container .denglu .dl .deng h4 span a {
+  color: blue;
+}
+
+.login .container .denglu .dl .deng h4 span a:hover {
+  text-decoration: underline;
+}
+
+.login .container .denglu .dl .deng input {
+  width: 340px;
+  height: 40px;
+  border: 1px solid #ddd;
+  padding-left: 40px;
+  margin-bottom: 30px;
+}
+
+.login .container .denglu .dl .deng .img1 {
+  position: absolute;
+  left: 31px;
+  top: 47px;
+}
+
+.login .container .denglu .dl .deng .img2 {
+  position: absolute;
+  left: 31px;
+  top: 117px;
+}
+
+.login .container .denglu .dl .deng .wang {
+  font-size: 12px;
+  position: absolute;
+  right: 60px;
+  top: 155px;
+  color: #5E5E5E;
+}
+
+.login .container .denglu .dl .deng .wang:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.login .container .denglu .dl .deng .yanzhen {
+  width: 174px;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+.login .container .denglu .dl .deng .check {
+  width: 12px;
+  height: 12px;
+  margin-bottom: 0;
+}
+
+.login .container .denglu .dl .deng .ma1 {
+  display: inline-block;
+  width: 90px;
+  height: 40px;
+  position: absolute;
+  left: 233px;
+  top: 186px;
+}
+
+.login .container .denglu .dl .deng .ma1 .ma {
+  line-height: 40px;
+  padding-left: 25px;
+}
+
+.login .container .denglu .dl .deng .kong {
+  font-size: 12px;
+  color: red;
+  position: absolute;
+  left: 28px;
+  top: 229px;
+  display: none;
+}
+
+.login .container .denglu .dl .deng .huan {
+  position: absolute;
+  left: 328px;
+  top: 194px;
+  font-size: 12px;
+}
+
+.login .container .denglu .dl .deng .mian {
+  font-size: 12px;
+}
+
+.login .container .denglu .dl .deng button {
+  width: 340px;
+  height: 40px;
+  background: #0099F1;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.login .container .denglu .dl .deng button:hover {
+  background: #0083ce;
+}
+
+.login .container .lianjie {
+  text-align: center;
+  padding-top: 46px;
+  font-size: 12px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.login .container .lianjie a {
+  display: inline-block;
+  padding: 0 5px;
+  height: 12px;
+  line-height: 12px;
+  border-right: 1px solid #ddd;
+  color: #5E5E5E;
+}
+
+.login .container .lianjie a:hover {
+  color: blue;
+  text-decoration: underline;
+}

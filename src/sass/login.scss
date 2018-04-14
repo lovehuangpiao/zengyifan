@@ -1,0 +1,156 @@
+.login{
+    .container{
+        width: 988px;
+        h1{
+            border-bottom:2px solid #0083CE;
+            img{
+                border-left:1px dashed #fff;
+                border-right:1px dashed #fff;
+            }
+            img:hover{
+                border-left:1px dashed red;
+                border-right:1px dashed red;
+            }
+        }
+        .denglu{
+            height: 458px;
+            box-shadow:-1px 1px 10px #EFEFEF, -1px 10px 10px #EFEFEF;
+            .dl{
+                width: 428px;
+                height: 458px;
+                ul{
+                    height: 46px;
+                    border-bottom:1px solid #ddd;
+                    li{
+                        height: 25px;
+                        font-size:14px;
+                        float:left;
+                        width: 214px;
+                        text-align:center;
+                        margin-top:10px;
+                        line-height: 25px;
+                    }
+                    .zuo{
+                        border-right:1px solid #ddd;
+                    }
+                    li:hover{
+                        color:blue;
+                    }
+                }
+                .deng{
+                    position:relative;
+                    height: 412px;
+                    padding-left:30px;
+                    h4{
+                        height: 46px;
+                        font-size:16px;
+                        line-height: 46px;
+                        span{
+                            font-size:12px;
+                            padding-left:112px;
+                            padding-right:30px;
+                            a{
+                                color:blue;
+                            }
+                            a:hover{
+                                text-decoration:underline;
+                            }
+                        }
+                    }
+                    input{
+                        // display:inline-block;
+                        width: 340px;
+                        height:40px;
+                        border:1px solid #ddd;
+                        padding-left:40px;
+                        margin-bottom:30px;
+                    }
+                    .img1{
+                        position:absolute;
+                        left:31px;top:47px; 
+                    }
+                    .img2{
+                        position:absolute;
+                        left:31px;top:117px; 
+                    }
+                    .wang{
+                        font-size:12px;
+                        position:absolute;
+                        right:60px;top:155px;
+                        color:#5E5E5E;
+                    }
+                    .wang:hover{
+                        color:blue;
+                        text-decoration:underline;
+                    }
+                    .yanzhen{
+                        width: 174px;
+                        padding-left:10px;
+                        margin-bottom:15px;
+                    }
+                    .check{
+                        width: 12px;
+                        height: 12px;
+                        margin-bottom:0;
+                    }
+                    .ma1{
+                        display:inline-block;
+                        width: 90px;
+                        height: 40px;
+                        position:absolute;
+                        left:233px;top:186px;
+                        .ma{
+                            line-height: 40px;
+                            padding-left:25px;
+                        }
+                        
+                    }
+                    .kong{
+                        font-size:12px;
+                        color:red;
+                        position:absolute;
+                        left:28px;top:229px;
+                        display:none;
+                    }
+                    .huan{
+                        position:absolute;
+                        left:328px;top:194px;
+                        font-size:12px;
+                    }
+                    .mian{
+                        font-size:12px;
+                    }
+                    button{
+                        width: 340px;
+                        height: 40px;
+                        background:#0099F1;
+                        color:#fff;
+                        margin-top:10px;
+                    }
+                    button:hover{
+                        background:#0083ce;
+                    }
+                }
+            }
+        }
+        .lianjie{
+            text-align:center;
+            padding-top:46px;
+            font-size:12px;
+            line-height:24px;
+            margin-bottom:20px;
+            a{
+                display:inline-block;
+                padding:0 5px;
+                height:12px;
+                line-height:12px;
+                border-right:1px solid #ddd;
+                color:#5E5E5E;
+            }
+            a:hover{
+                color:blue;
+                text-decoration:underline;
+            }
+        }
+    }
+}

@@ -1,0 +1,1661 @@
+#details .header .dizhi .bottom, #details .header .login .ul li .yiyao .bottom1, #details .dao .nav .lis .bottom2 {
+  position: absolute;
+  left: 92px;
+  top: 15px;
+  display: inline-block;
+  border-right: 1px solid;
+  border-top: 1px solid;
+  width: 5px;
+  height: 5px;
+  transform: rotate(135deg);
+}
+
+#details .header .dizhi .top, #details .header .login .ul li .yiyao .top1, #details .dao .nav .lis .top2 {
+  position: absolute;
+  left: 92px;
+  top: 18px;
+  display: inline-block;
+  border-left: 1px solid;
+  border-top: 1px solid;
+  width: 5px;
+  height: 5px;
+  transform: rotate(45deg);
+}
+
+#details .header {
+  background: #F1F1F1;
+  font-size: 12px;
+  line-height: 37px;
+  position: relative;
+  z-index: 9999;
+}
+
+#details .header .dizhi {
+  width: 108px;
+  height: 37px;
+}
+
+#details .header .dizhi .song {
+  margin: 0 5px;
+  display: inline-block;
+}
+
+#details .header .dizhi ul {
+  display: none;
+  padding-left: 10px;
+  padding-top: 5px;
+  width: 280px;
+  height: 370px;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+
+#details .header .dizhi ul li {
+  height: 24px;
+  line-height: 24px;
+}
+
+#details .header .dizhi ul li a {
+  color: #5E5E5E;
+}
+
+#details .header .dizhi ul li i {
+  margin-right: 8px;
+}
+
+#details .header .dizhi ul li span {
+  margin-right: 10px;
+}
+
+#details .header .dizhi ul li .bold {
+  font-weight: bold;
+}
+
+#details .header .login .ul {
+  width: 478px;
+  height: 37px;
+}
+
+#details .header .login .ul li {
+  float: left;
+}
+
+#details .header .login .ul li a {
+  display: inline-block;
+  height: 37px;
+}
+
+#details .header .login .ul li .yiyao {
+  position: relative;
+}
+
+#details .header .login .ul li .yiyao .yi {
+  padding-right: 20px;
+}
+
+#details .header .login .ul li .yiyao .bottom1 {
+  position: absolute;
+  left: 70px;
+  top: 15px;
+}
+
+#details .header .login .ul li .yiyao .top1 {
+  position: absolute;
+  left: 70px;
+  top: 18px;
+}
+
+#details .header .login .ul li span {
+  display: inline-block;
+  line-height: 12px;
+  color: #5E5E5E;
+  padding: 0 9px;
+  border-right: 1px solid #E0E0E0;
+}
+
+#details .header .login .ul li .lg {
+  margin-right: 5px;
+  padding: 0;
+  border-right: none;
+  color: #E54948;
+}
+
+#details .header .login .ul li a:hover .lg {
+  text-decoration: underline;
+}
+
+#details .header .login .ul li .sg {
+  padding-left: 0;
+}
+
+#details .header .login .ul li .help {
+  color: #C9A978;
+}
+
+#details .header .login .ul li .phone {
+  display: inline-block;
+  width: 9px;
+  height: 13px;
+  margin: 0 9px;
+  background: url(../img/shouji.png) no-repeat;
+}
+
+#details .header .login .ul li .shouji {
+  padding-left: 0;
+}
+
+#details .header .login .ul .li1 {
+  position: relative;
+}
+
+#details .header .login .ul .li1 .myul {
+  display: none;
+  position: absolute;
+  top: 37px;
+  left: 0;
+  width: 100%;
+  padding-top: 8px;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+
+#details .header .login .ul .li1 .myul li {
+  width: 100%;
+  padding-left: 8px;
+  clear: both;
+  height: 24px;
+  line-height: 24px;
+}
+
+#details .header .login .ul .li1 .myul li a {
+  color: #5E5E5E;
+}
+
+#details .header .login .ul .li1:hover .myul {
+  display: block;
+  background: #fff;
+}
+
+#details .header .login .ul .myul li:hover {
+  background: #F1F1F1;
+}
+
+#details .header .login .ul .li2 {
+  position: relative;
+}
+
+#details .header .login .ul .li2 ul {
+  display: none;
+  padding-top: 10px;
+  width: 220px;
+  height: 240px;
+  position: absolute;
+  left: -70px;
+  top: 36px;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+
+#details .header .login .ul .li2 ul li {
+  width: 100%;
+  clear: both;
+  position: relative;
+}
+
+#details .header .login .ul .li2 ul li .sp1 {
+  position: absolute;
+  left: 102px;
+  top: 6px;
+  border: none;
+}
+
+#details .header .login .ul .li2 ul li .sp2 {
+  position: absolute;
+  left: 102px;
+  top: 36px;
+  border: none;
+  color: red;
+  font-weight: bold;
+}
+
+#details .header .login .ul .li2:hover {
+  background: #fff;
+}
+
+#details .header .login .ul .li2:hover ul {
+  display: block;
+  background: #fff;
+}
+
+#details .bar .cars {
+  width: 352px;
+  z-index: 99900;
+  position: absolute;
+  right: 25px;
+  top: 133px;
+  border: 1px solid red;
+}
+
+#details .bar .cars .mycar {
+  background: #FFFFFF;
+}
+
+#details .bar .cars .mycar li {
+  height: 62px;
+  border-bottom: 1px solid #ddd;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+#details .bar .cars .mycar li .img_car {
+  width: 42px;
+  height: 42px;
+}
+
+#details .bar .cars .mycar li .goods-intro a {
+  display: inline-block;
+  width: 122px;
+  font-size: 12px;
+  position: absolute;
+  left: 61px;
+  top: 12px;
+}
+
+#details .bar .cars .mycar li .goods-price {
+  color: red;
+  position: absolute;
+  right: 107px;
+  top: 22px;
+  font-size: 12px;
+}
+
+#details .bar .cars .mycar li .i1 {
+  position: absolute;
+  right: 66px;
+  top: 23px;
+}
+
+#details .bar .cars .mycar li .i2 {
+  position: absolute;
+  right: 17px;
+  top: 23px;
+}
+
+#details .bar .cars .mycar li .inputs {
+  width: 30px;
+  height: 18px;
+  border: 1px solid #ddd;
+  position: absolute;
+  right: 33px;
+  top: 20px;
+}
+
+#details .bar .cars .total {
+  width: 350px;
+  height: 72px;
+  background: #F7F7F7;
+  padding-left: 10px;
+  font-size: 12px;
+  border-top: 1px solid #ddd;
+  padding-top: 12px;
+}
+
+#details .bar .cars .total .spp_1 {
+  margin-right: 192px;
+}
+
+#details .bar .cars .total .spp_1 .shuliang {
+  color: red;
+  font-weight: bold;
+}
+
+#details .bar .cars .total .zong {
+  color: red;
+  font-weight: bold;
+}
+
+#details .bar .cars .total a {
+  position: absolute;
+  right: 21px;
+  bottom: 8px;
+}
+
+#details .bar .logo .seek {
+  width: 533px;
+  height: 131px;
+  padding-top: 34px;
+  margin: 0 105px;
+  position: relative;
+}
+
+#details .bar .logo .seek .cast {
+  padding-left: 8px;
+  border: 1px solid #C7A774;
+  width: 451px;
+  height: 46px;
+}
+
+#details .bar .logo .seek .shousuo {
+  border: 1px solid #C7A774;
+  width: 82px;
+  height: 46px;
+  position: relative;
+}
+
+#details .bar .logo .seek .shousuo img {
+  position: absolute;
+  left: 28px;
+  top: 9px;
+}
+
+#details .bar .logo .seek span {
+  font-size: 12px;
+  line-height: 36px;
+  color: #5E5E5E;
+  margin-right: 14px;
+}
+
+#details .bar .logo .seek span:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+#details .bar .logo .seek .wsse {
+  color: red;
+}
+
+#details .bar .logo .seek .datalist {
+  display: none;
+  width: 451px;
+  height: 262px;
+  border: 1px solid #ddd;
+  position: absolute;
+  left: 0;
+  top: 79px;
+  z-index: 999;
+  font-size: 12px;
+}
+
+#details .bar .logo .seek .datalist li {
+  width: 100%;
+  padding-left: 8px;
+  height: 26px;
+  line-height: 26px;
+}
+
+#details .bar .logo .seek .datalist li a {
+  display: inline-block;
+  width: 100%;
+  color: #5E5E5E;
+}
+
+#details .bar .logo .wei {
+  padding-top: 34px;
+  height: 131px;
+}
+
+#details .bar .logo .wei .car {
+  width: 140px;
+  height: 40px;
+  border: 1px solid #ddd;
+  margin-left: 22px;
+  position: relative;
+}
+
+#details .bar .logo .wei .car .hov {
+  display: inline-block;
+  width: 140px;
+  height: 40px;
+}
+
+#details .bar .logo .wei .car .hov .img_car {
+  position: absolute;
+  left: 17px;
+  top: 3px;
+}
+
+#details .bar .logo .wei .car .hov span {
+  font-size: 12px;
+  line-height: 40px;
+  position: absolute;
+  left: 55px;
+  top: 0;
+  color: #5E5E5E;
+}
+
+#details .bar .logo .wei .car .hov .jiantou {
+  position: absolute;
+  right: 22px;
+  top: 14px;
+}
+
+#details .dao {
+  border-bottom: 2px solid #D2B994;
+}
+
+#details .dao .nav {
+  height: 46px;
+}
+
+#details .dao .nav .lli {
+  float: left;
+}
+
+#details .dao .nav .lli .as {
+  display: inline-block;
+  height: 48px;
+  font-size: 16px;
+  line-height: 48px;
+  color: #5E5E5E;
+  padding-right: 30px;
+}
+
+#details .dao .nav .lli .yong {
+  position: absolute;
+  z-index: 999;
+  display: none;
+  width: 180px;
+  height: 400px;
+  background: #314349;
+}
+
+#details .dao .nav .lli .yong li {
+  width: 100%;
+  height: 40px;
+  clear: both;
+  position: relative;
+}
+
+#details .dao .nav .lli .yong li .aa {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 0;
+  height: 40px;
+  line-height: 40px;
+}
+
+#details .dao .nav .lli .yong li .aa span {
+  padding-left: 9px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 44px;
+}
+
+#details .dao .nav .lli .yong li .zhongxi {
+  z-index: 999;
+  background: #fff;
+  display: none;
+  padding-left: 23px;
+  width: 1010px;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  position: absolute;
+  left: 180px;
+  top: 0;
+}
+
+#details .dao .nav .lli .yong li .zhongxi .mode {
+  width: 252px;
+  height: 399px;
+  margin-right: -6px;
+}
+
+#details .dao .nav .lli .yong li .zhongxi .mode dl {
+  width: 252px;
+  height: 74px;
+  margin-bottom: 10px;
+}
+
+#details .dao .nav .lli .yong li .zhongxi .mode dl dt {
+  height: 20px;
+  line-height: 20px;
+}
+
+#details .dao .nav .lli .yong li .zhongxi .mode dl dt a {
+  color: #5E5E5E;
+  height: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+#details .dao .nav .lli .yong li .zhongxi .mode dl dt a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+#details .dao .nav .lli .yong li .zhongxi .mode dl .dt1 {
+  padding-top: 6px;
+}
+
+#details .dao .nav .lli .yong li .zhongxi .mode dl dd a {
+  color: #5E5E5E;
+  height: 12px;
+  line-height: 12px;
+  float: left;
+  font-size: 12px;
+  padding-right: 6px;
+  margin-top: 8px;
+  margin-right: 6px;
+  border-right: 1px solid #ddd;
+}
+
+#details .dao .nav .lli .yong li .zhongxi .mode dl dd a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+#details .dao .nav .lli .yong li .zhongxi .mode dl dd .red {
+  color: red;
+}
+
+#details .dao .nav .lli .yong li .zhongxi .img {
+  height: 399px;
+  border-left: 1px solid #ddd;
+}
+
+#details .dao .nav .lli .yong li .zhongxi .img img {
+  position: absolute;
+  right: 0;
+  top: 4px;
+}
+
+#details .dao .nav .lli .yong li .zibu {
+  z-index: 999;
+  background: #fff;
+  display: none;
+  padding-left: 23px;
+  width: 1010px;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  position: absolute;
+  left: 180px;
+  top: -40px;
+}
+
+#details .dao .nav .lli .yong li .zibu .mode {
+  width: 252px;
+  height: 399px;
+  margin-right: -6px;
+}
+
+#details .dao .nav .lli .yong li .zibu .mode dl {
+  width: 252px;
+  height: 74px;
+  margin-bottom: 10px;
+}
+
+#details .dao .nav .lli .yong li .zibu .mode dl dt {
+  height: 20px;
+  line-height: 20px;
+}
+
+#details .dao .nav .lli .yong li .zibu .mode dl dt a {
+  color: #5E5E5E;
+  height: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+#details .dao .nav .lli .yong li .zibu .mode dl dt a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+#details .dao .nav .lli .yong li .zibu .mode dl .dt1 {
+  padding-top: 6px;
+}
+
+#details .dao .nav .lli .yong li .zibu .mode dl dd a {
+  color: #5E5E5E;
+  height: 12px;
+  line-height: 12px;
+  float: left;
+  font-size: 12px;
+  padding-right: 6px;
+  margin-top: 8px;
+  margin-right: 6px;
+  border-right: 1px solid #ddd;
+}
+
+#details .dao .nav .lli .yong li .zibu .mode dl dd a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+#details .dao .nav .lli .yong li .zibu .mode dl dd .red {
+  color: red;
+}
+
+#details .dao .nav .lli .yong li .zibu .img {
+  height: 399px;
+  border-left: 1px solid #ddd;
+}
+
+#details .dao .nav .lli .yong li .zibu .img img {
+  position: absolute;
+  right: 0;
+  top: 4px;
+}
+
+#details .dao .nav .lli .yong li .weiss {
+  z-index: 999;
+  background: #fff;
+  display: none;
+  padding-left: 23px;
+  width: 1010px;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  position: absolute;
+  left: 180px;
+  top: -80px;
+}
+
+#details .dao .nav .lli .yong li .weiss .mode {
+  width: 252px;
+  height: 399px;
+  margin-right: -6px;
+}
+
+#details .dao .nav .lli .yong li .weiss .mode dl {
+  width: 252px;
+  height: 74px;
+  margin-bottom: 10px;
+}
+
+#details .dao .nav .lli .yong li .weiss .mode dl dt {
+  height: 20px;
+  line-height: 20px;
+}
+
+#details .dao .nav .lli .yong li .weiss .mode dl dt a {
+  color: #5E5E5E;
+  height: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+#details .dao .nav .lli .yong li .weiss .mode dl dt a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+#details .dao .nav .lli .yong li .weiss .mode dl .dt1 {
+  padding-top: 6px;
+}
+
+#details .dao .nav .lli .yong li .weiss .mode dl dd a {
+  color: #5E5E5E;
+  height: 12px;
+  line-height: 12px;
+  float: left;
+  font-size: 12px;
+  padding-right: 6px;
+  margin-top: 8px;
+  margin-right: 6px;
+  border-right: 1px solid #ddd;
+}
+
+#details .dao .nav .lli .yong li .weiss .mode dl dd a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+#details .dao .nav .lli .yong li .weiss .mode dl dd .red {
+  color: red;
+}
+
+#details .dao .nav .lli .yong li .weiss .img {
+  height: 399px;
+  border-left: 1px solid #ddd;
+}
+
+#details .dao .nav .lli .yong li .weiss .img img {
+  position: absolute;
+  right: 0;
+  top: 4px;
+}
+
+#details .dao .nav .lli .yong li .eyes {
+  z-index: 999;
+  background: #fff;
+  display: none;
+  padding-left: 23px;
+  width: 1010px;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  position: absolute;
+  left: 180px;
+  top: -120px;
+}
+
+#details .dao .nav .lli .yong li .eyes .mode {
+  width: 252px;
+  height: 399px;
+  margin-right: -6px;
+}
+
+#details .dao .nav .lli .yong li .eyes .mode dl {
+  width: 252px;
+  height: 74px;
+  margin-bottom: 10px;
+}
+
+#details .dao .nav .lli .yong li .eyes .mode dl dt {
+  height: 20px;
+  line-height: 20px;
+}
+
+#details .dao .nav .lli .yong li .eyes .mode dl dt a {
+  color: #5E5E5E;
+  height: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+#details .dao .nav .lli .yong li .eyes .mode dl dt a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+#details .dao .nav .lli .yong li .eyes .mode dl .dt1 {
+  padding-top: 6px;
+}
+
+#details .dao .nav .lli .yong li .eyes .mode dl dd a {
+  color: #5E5E5E;
+  height: 12px;
+  line-height: 12px;
+  float: left;
+  font-size: 12px;
+  padding-right: 6px;
+  margin-top: 8px;
+  margin-right: 6px;
+  border-right: 1px solid #ddd;
+}
+
+#details .dao .nav .lli .yong li .eyes .mode dl dd a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+#details .dao .nav .lli .yong li .eyes .mode dl dd .red {
+  color: red;
+}
+
+#details .dao .nav .lli .yong li .eyes .img {
+  height: 399px;
+  border-left: 1px solid #ddd;
+}
+
+#details .dao .nav .lli .yong li .eyes .img img {
+  position: absolute;
+  right: 0;
+  top: 4px;
+}
+
+#details .dao .nav .lli .yong li .yiliao {
+  z-index: 999;
+  background: #fff;
+  display: none;
+  padding-left: 23px;
+  width: 1010px;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  position: absolute;
+  left: 180px;
+  top: -160px;
+}
+
+#details .dao .nav .lli .yong li .yiliao .mode {
+  width: 252px;
+  height: 399px;
+  margin-right: -6px;
+}
+
+#details .dao .nav .lli .yong li .yiliao .mode dl {
+  width: 252px;
+  height: 74px;
+  margin-bottom: 10px;
+}
+
+#details .dao .nav .lli .yong li .yiliao .mode dl dt {
+  height: 20px;
+  line-height: 20px;
+}
+
+#details .dao .nav .lli .yong li .yiliao .mode dl dt a {
+  color: #5E5E5E;
+  height: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+#details .dao .nav .lli .yong li .yiliao .mode dl dt a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+#details .dao .nav .lli .yong li .yiliao .mode dl .dt1 {
+  padding-top: 6px;
+}
+
+#details .dao .nav .lli .yong li .yiliao .mode dl dd a {
+  color: #5E5E5E;
+  height: 12px;
+  line-height: 12px;
+  float: left;
+  font-size: 12px;
+  padding-right: 6px;
+  margin-top: 8px;
+  margin-right: 6px;
+  border-right: 1px solid #ddd;
+}
+
+#details .dao .nav .lli .yong li .yiliao .mode dl dd a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+#details .dao .nav .lli .yong li .yiliao .mode dl dd .red {
+  color: red;
+}
+
+#details .dao .nav .lli .yong li .yiliao .img {
+  height: 399px;
+  border-left: 1px solid #ddd;
+}
+
+#details .dao .nav .lli .yong li .yiliao .img img {
+  position: absolute;
+  right: 0;
+  top: 4px;
+}
+
+#details .dao .nav .lli .yong li .yaozhuang {
+  z-index: 999;
+  background: #fff;
+  display: none;
+  padding-left: 23px;
+  width: 1010px;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  position: absolute;
+  left: 180px;
+  top: -200px;
+}
+
+#details .dao .nav .lli .yong li .yaozhuang .mode {
+  width: 252px;
+  height: 399px;
+  margin-right: -6px;
+}
+
+#details .dao .nav .lli .yong li .yaozhuang .mode dl {
+  width: 252px;
+  height: 74px;
+  margin-bottom: 10px;
+}
+
+#details .dao .nav .lli .yong li .yaozhuang .mode dl dt {
+  height: 20px;
+  line-height: 20px;
+}
+
+#details .dao .nav .lli .yong li .yaozhuang .mode dl dt a {
+  color: #5E5E5E;
+  height: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+#details .dao .nav .lli .yong li .yaozhuang .mode dl dt a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+#details .dao .nav .lli .yong li .yaozhuang .mode dl .dt1 {
+  padding-top: 6px;
+}
+
+#details .dao .nav .lli .yong li .yaozhuang .mode dl dd a {
+  color: #5E5E5E;
+  height: 12px;
+  line-height: 12px;
+  float: left;
+  font-size: 12px;
+  padding-right: 6px;
+  margin-top: 8px;
+  margin-right: 6px;
+  border-right: 1px solid #ddd;
+}
+
+#details .dao .nav .lli .yong li .yaozhuang .mode dl dd a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+#details .dao .nav .lli .yong li .yaozhuang .mode dl dd .red {
+  color: red;
+}
+
+#details .dao .nav .lli .yong li .yaozhuang .img {
+  height: 399px;
+  border-left: 1px solid #ddd;
+}
+
+#details .dao .nav .lli .yong li .yaozhuang .img img {
+  position: absolute;
+  right: 0;
+  top: 4px;
+}
+
+#details .dao .nav .lli .yong li .chengren {
+  z-index: 999;
+  background: #fff;
+  display: none;
+  padding-left: 23px;
+  width: 1010px;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  position: absolute;
+  left: 180px;
+  top: -240px;
+}
+
+#details .dao .nav .lli .yong li .chengren .mode {
+  width: 252px;
+  height: 399px;
+  margin-right: -6px;
+}
+
+#details .dao .nav .lli .yong li .chengren .mode dl {
+  width: 252px;
+  height: 74px;
+  margin-bottom: 10px;
+}
+
+#details .dao .nav .lli .yong li .chengren .mode dl dt {
+  height: 20px;
+  line-height: 20px;
+}
+
+#details .dao .nav .lli .yong li .chengren .mode dl dt a {
+  color: #5E5E5E;
+  height: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+#details .dao .nav .lli .yong li .chengren .mode dl dt a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+#details .dao .nav .lli .yong li .chengren .mode dl .dt1 {
+  padding-top: 6px;
+}
+
+#details .dao .nav .lli .yong li .chengren .mode dl dd a {
+  color: #5E5E5E;
+  height: 12px;
+  line-height: 12px;
+  float: left;
+  font-size: 12px;
+  padding-right: 6px;
+  margin-top: 8px;
+  margin-right: 6px;
+  border-right: 1px solid #ddd;
+}
+
+#details .dao .nav .lli .yong li .chengren .mode dl dd a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+#details .dao .nav .lli .yong li .chengren .mode dl dd .red {
+  color: red;
+}
+
+#details .dao .nav .lli .yong li .chengren .img {
+  height: 399px;
+  border-left: 1px solid #ddd;
+}
+
+#details .dao .nav .lli .yong li .chengren .img img {
+  position: absolute;
+  right: 0;
+  top: 4px;
+}
+
+#details .dao .nav .lli .yong li .mu {
+  z-index: 999;
+  background: #fff;
+  display: none;
+  padding-left: 23px;
+  width: 1010px;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  position: absolute;
+  left: 180px;
+  top: -280px;
+}
+
+#details .dao .nav .lli .yong li .mu .mode {
+  width: 252px;
+  height: 399px;
+  margin-right: -6px;
+}
+
+#details .dao .nav .lli .yong li .mu .mode dl {
+  width: 252px;
+  height: 74px;
+  margin-bottom: 10px;
+}
+
+#details .dao .nav .lli .yong li .mu .mode dl dt {
+  height: 20px;
+  line-height: 20px;
+}
+
+#details .dao .nav .lli .yong li .mu .mode dl dt a {
+  color: #5E5E5E;
+  height: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+#details .dao .nav .lli .yong li .mu .mode dl dt a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+#details .dao .nav .lli .yong li .mu .mode dl .dt1 {
+  padding-top: 6px;
+}
+
+#details .dao .nav .lli .yong li .mu .mode dl dd a {
+  color: #5E5E5E;
+  height: 12px;
+  line-height: 12px;
+  float: left;
+  font-size: 12px;
+  padding-right: 6px;
+  margin-top: 8px;
+  margin-right: 6px;
+  border-right: 1px solid #ddd;
+}
+
+#details .dao .nav .lli .yong li .mu .mode dl dd a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+#details .dao .nav .lli .yong li .mu .mode dl dd .red {
+  color: red;
+}
+
+#details .dao .nav .lli .yong li .mu .img {
+  height: 399px;
+  border-left: 1px solid #ddd;
+}
+
+#details .dao .nav .lli .yong li .mu .img img {
+  position: absolute;
+  right: 0;
+  top: 4px;
+}
+
+#details .dao .nav .lli .yong li .huacha {
+  z-index: 999;
+  background: #fff;
+  display: none;
+  padding-left: 23px;
+  width: 1010px;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  position: absolute;
+  left: 180px;
+  top: -320px;
+}
+
+#details .dao .nav .lli .yong li .huacha .mode {
+  width: 252px;
+  height: 399px;
+  margin-right: -6px;
+}
+
+#details .dao .nav .lli .yong li .huacha .mode dl {
+  width: 252px;
+  height: 74px;
+  margin-bottom: 10px;
+}
+
+#details .dao .nav .lli .yong li .huacha .mode dl dt {
+  height: 20px;
+  line-height: 20px;
+}
+
+#details .dao .nav .lli .yong li .huacha .mode dl dt a {
+  color: #5E5E5E;
+  height: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+#details .dao .nav .lli .yong li .huacha .mode dl dt a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+#details .dao .nav .lli .yong li .huacha .mode dl .dt1 {
+  padding-top: 6px;
+}
+
+#details .dao .nav .lli .yong li .huacha .mode dl dd a {
+  color: #5E5E5E;
+  height: 12px;
+  line-height: 12px;
+  float: left;
+  font-size: 12px;
+  padding-right: 6px;
+  margin-top: 8px;
+  margin-right: 6px;
+  border-right: 1px solid #ddd;
+}
+
+#details .dao .nav .lli .yong li .huacha .mode dl dd a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+#details .dao .nav .lli .yong li .huacha .mode dl dd .red {
+  color: red;
+}
+
+#details .dao .nav .lli .yong li .huacha .img {
+  height: 399px;
+  border-left: 1px solid #ddd;
+}
+
+#details .dao .nav .lli .yong li .huacha .img img {
+  position: absolute;
+  right: 0;
+  top: 4px;
+}
+
+#details .dao .nav .lli .yong li .tijian {
+  z-index: 999;
+  background: #fff;
+  display: none;
+  padding-left: 23px;
+  width: 1010px;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  position: absolute;
+  left: 180px;
+  top: -360px;
+}
+
+#details .dao .nav .lli .yong li .tijian .mode {
+  width: 252px;
+  height: 399px;
+  margin-right: -6px;
+}
+
+#details .dao .nav .lli .yong li .tijian .mode dl {
+  width: 252px;
+  height: 74px;
+  margin-bottom: 10px;
+}
+
+#details .dao .nav .lli .yong li .tijian .mode dl dt {
+  height: 20px;
+  line-height: 20px;
+}
+
+#details .dao .nav .lli .yong li .tijian .mode dl dt a {
+  color: #5E5E5E;
+  height: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+#details .dao .nav .lli .yong li .tijian .mode dl dt a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+#details .dao .nav .lli .yong li .tijian .mode dl .dt1 {
+  padding-top: 6px;
+}
+
+#details .dao .nav .lli .yong li .tijian .mode dl dd a {
+  color: #5E5E5E;
+  height: 12px;
+  line-height: 12px;
+  float: left;
+  font-size: 12px;
+  padding-right: 6px;
+  margin-top: 8px;
+  margin-right: 6px;
+  border-right: 1px solid #ddd;
+}
+
+#details .dao .nav .lli .yong li .tijian .mode dl dd a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+#details .dao .nav .lli .yong li .tijian .mode dl dd .red {
+  color: red;
+}
+
+#details .dao .nav .lli .yong li .tijian .img {
+  height: 399px;
+  border-left: 1px solid #ddd;
+}
+
+#details .dao .nav .lli .yong li .tijian .img img {
+  position: absolute;
+  right: 0;
+  top: 4px;
+}
+
+#details .dao .nav .lli .one {
+  width: 180px;
+  padding-left: 14px;
+  background: #19323A;
+  color: #fff;
+}
+
+#details .dao .nav .lli .one:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#details .dao .nav .lli .two {
+  color: red;
+}
+
+#details .dao .nav .lli .two1 {
+  padding-left: 14px;
+}
+
+#details .dao .nav .lli a:hover {
+  color: blue;
+}
+
+#details .dao .nav .lli .two:hover {
+  color: red;
+}
+
+#details .dao .nav .yp:hover .yong {
+  display: block;
+}
+
+#details .dao .nav .lis {
+  position: relative;
+  z-index: 999;
+}
+
+#details .dao .nav .lis .bottom2 {
+  position: absolute;
+  left: 80px;
+  top: 20px;
+}
+
+#details .dao .nav .lis .top2 {
+  position: absolute;
+  left: 80px;
+  top: 24px;
+}
+
+#details .dao .nav .lis ul {
+  position: absolute;
+  left: -14px;
+  top: 49px;
+  background: #fff;
+  display: none;
+  width: 120px;
+  height: 79px;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+
+#details .dao .nav .lis ul li {
+  width: 120px;
+  clear: both;
+}
+
+#details .dao .nav .lis ul li a {
+  display: inline-block;
+  font-size: 14px;
+  width: 100%;
+  height: 26px;
+  line-height: 26px;
+  padding-left: 10px;
+}
+
+#details .dao .nav .lis ul li a:hover {
+  background: #F1F1F1;
+  color: #5E5E5E;
+}
+
+#details .shang ul {
+  height: 44px;
+  padding-top: 10px;
+}
+
+#details .shang ul li {
+  float: left;
+}
+
+#details .shang ul li a {
+  font-size: 12px;
+  padding: 0 10px;
+  color: #5E5E5E;
+}
+
+#details .shang ul li a:hover {
+  text-decoration: underline;
+}
+
+#details .shang .yes {
+  height: 585px;
+  padding-top: 18px;
+}
+
+#details .shang .yes .zuo {
+  width: 320px;
+  height: 585px;
+}
+
+#details .shang .yes .zuo .tupian {
+  width: 320px;
+  height: 295px;
+}
+
+#details .shang .yes .zuo .qie {
+  margin-top: 12px;
+  position: relative;
+}
+
+#details .shang .yes .zuo .qie .zuojiantou {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#details .shang .yes .zuo .qie .youjiantou {
+  position: absolute;
+  right: 20px;
+  top: 0;
+}
+
+#details .shang .yes .zuo .qie ul {
+  width: 256px;
+  height: 51px;
+  padding-top: 0;
+  padding-right: 0;
+  margin-left: 24px;
+}
+
+#details .shang .yes .zuo .qie ul li {
+  margin-left: -1px;
+  margin-right: -1px;
+  width: 51px;
+  height: 51px;
+  margin-right: 1px;
+}
+
+#details .shang .yes .zuo .qie ul li .xiaotu {
+  width: 46px;
+  height: 46px;
+}
+
+#details .shang .yes .zuo .qie ul li img {
+  width: 46px;
+  height: 46px;
+}
+
+#details .shang .yes .zuo .qie ul .dianji {
+  border: 1px solid red;
+}
+
+#details .shang .gouwu {
+  width: 483px;
+  height: 585px;
+  padding-left: 14px;
+  padding-top: 18px;
+}
+
+#details .shang .gouwu .shangping p {
+  position: relative;
+}
+
+#details .shang .gouwu .shangping p .ziti {
+  display: inline-block;
+  position: absolute;
+  left: 48px;
+  top: 0;
+  height: 24px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#details .shang .gouwu .shangping .wang {
+  height: 50px;
+  line-height: 50px;
+}
+
+#details .shang .gouwu .shangping .wang span {
+  font-size: 12px;
+}
+
+#details .shang .gouwu .shangping .wang .jiage {
+  font-size: 22px;
+  color: red;
+  margin-right: 80px;
+}
+
+#details .shang .gouwu .shangping .wang .ping {
+  font-size: 22px;
+}
+
+#details .shang .gouwu .shangping .dv {
+  margin-left: 18px;
+  position: relative;
+}
+
+#details .shang .gouwu .shangping .dv .shu {
+  width: 108px;
+  height: 40px;
+  border: 1px solid #ddd;
+  margin-right: 3px;
+}
+
+#details .shang .gouwu .shangping .dv .ss {
+  position: absolute;
+  left: 159px;
+  top: 0;
+}
+
+#details .shang .gouwu .shangping .dv .yy {
+  position: absolute;
+  left: 159px;
+  top: 21px;
+}
+
+#details .xiangqing {
+  height: 5033px;
+}
+
+#details .xiangqing .pj {
+  width: 793px;
+  height: 40px;
+  background: #F7F7F7;
+  border-top: 2px solid blue;
+  margin-bottom: 10px;
+}
+
+#details .xiangqing .pj li {
+  width: 120px;
+  float: left;
+  line-height: 40px;
+  text-align: center;
+}
+
+#details .xiangqing .pj li a {
+  display: inline-block;
+  width: 120px;
+  height: 14px;
+  line-height: 14px;
+  font-size: 14px;
+  border-right: 1px dotted #ddd;
+  text-align: center;
+  color: #5E5E5E;
+}
+
+#details .xiangqing .pj li a:active {
+  color: blue;
+}
+
+#details .xiangqing .pj .active {
+  background: #fff;
+}
+
+#details .shou {
+  height: 178px;
+  background: #f0f0f0;
+  margin-bottom: 52px;
+}
+
+#details .shou .jian img {
+  padding-top: 36px;
+  margin: 0 40px;
+}
+
+#details .shou .jian img:hover {
+  transform: translateY(-10px);
+}
+
+#details .ke {
+  margin-top: 22px;
+}
+
+#details .ke dl {
+  float: left;
+  margin: 0 35px;
+}
+
+#details .ke dl dt {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+#details .ke dl dd {
+  font-size: 10px;
+  color: #999;
+  line-height: 24px;
+}
+
+#details .yu p {
+  text-align: center;
+  height: 24px;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+#details .yu p a {
+  border-right: 1px solid #ddd;
+  padding: 0 6px;
+  color: #5E5E5E;
+}
+
+#details .yu p .aa3 {
+  color: red;
+}
+
+#details .yu p a:hover {
+  text-decoration: underline;
+}
+
+#details .jiandu p {
+  text-align: center;
+}
+
+#details .jiandu p a {
+  font-size: 12px;
+}
+
+#details .fanhui {
+  width: 52px;
+  height: 204px;
+  border: 1px solid #ddd;
+  position: fixed;
+  right: 28px;
+  bottom: 10px;
+}
+
+#details .fanhui ul li {
+  border-bottom: 1px solid #ddd;
+}
+
+#details .fanhui ul li span {
+  display: none;
+  font-size: 18px;
+  text-align: center;
+}
+
+#details .fanhui ul li .spp1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#details .fanhui ul li .spp2 {
+  position: absolute;
+  left: 0;
+  top: 53px;
+}
+
+#details .fanhui ul li .spp3 {
+  position: absolute;
+  left: 0;
+  top: 103px;
+}
+
+#details .fanhui ul li .spp4 {
+  position: absolute;
+  left: 0;
+  top: 153px;
+}
+
+#details .fanhui ul .li1 {
+  height: 52px;
+}
+
+#details .fanhui ul .li2 {
+  height: 51px;
+}
+
+#details .fanhui ul .li3 {
+  height: 51px;
+}
+
+#details .fanhui ul .li4 {
+  height: 50px;
+}

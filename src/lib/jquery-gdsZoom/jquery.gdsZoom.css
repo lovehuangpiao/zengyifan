@@ -1,0 +1,6 @@
+
+.gds-zoom{position:relative;overflow:hidden;}
+.gds-zoom img{display:block;}
+.gds-zoom .minzoom{display:none;position: absolute;width:30px;height:30px;border:1px dashed red;background-color:#fff;opacity:0.5;filter:alpha(Opacity=30);cursor:crosshair;}
+.gds-zoom-big{display:none;position: absolute;width:400px;height:400px;overflow:hidden;border:1px solid #000;}
+.gds-zoom-big img{position: absolute;left:0;right:0;min-width: 1000px;}
