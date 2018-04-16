@@ -1,5 +1,5 @@
-require(['config'],function(){
-    require(['jquery'],function($){
+jQuery(function($){
+
         //1、头部
         
         //地址栏
@@ -158,8 +158,7 @@ require(['config'],function(){
             var $scrollTop = $height*$idx+454;
             $('html,body').stop().animate({scrollTop:$scrollTop});
         });
-    })
-});
+})
 
    //3、轮播图
 document.addEventListener("DOMContentLoaded",()=>{
